@@ -39,7 +39,7 @@ namespace std {
 string to_string(std::vector<int> v) {
 	string s = "";
 	for (int a : v) {
-		s += (" " + to_string(a) + " ");
+		s += (" " + to_string(a) + " "); 
 	}
 	return s;
 }
