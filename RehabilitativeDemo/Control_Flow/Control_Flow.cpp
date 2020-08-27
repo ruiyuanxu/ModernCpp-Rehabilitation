@@ -18,6 +18,8 @@ int main()
 {
 	TestIfConstexpr();
 	TestForInRange();
+	buffer_t<int, 100> buf;
+	foo<10>();
 	std::string s;
 	std::cin >> s;
 	return 0;
